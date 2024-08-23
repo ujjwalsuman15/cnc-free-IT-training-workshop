@@ -174,10 +174,11 @@ header .text-blue span+span {
 }
 
 .hero .col-md-7 h1 {
-    font-size: 43px;
+    font-size: 40px;
     color: #fff;
     font-weight: 900;
 }
+
 .hero .col-md-7 h2 {
     font-size: 30px;
     color: #fff;
@@ -206,45 +207,33 @@ header .text-blue span+span {
 
 /* ========================= /hero-form section end ========================= */
 
+/* ========================= who can join section start ========================= */
+
+.whocan h1 span {
+    font-size: 40px;
+}
+
+/* ========================= /who can join section end ========================= */
+
+
 
 /* mediascreen section start */
-@media screen and (max-width:1199px) {}
-
 @media screen and (max-width:991px) {
     .hero .col-md-7 h1 {
-        font-size: 55px;
-        color: #fff;
+        font-size: 35px;
         font-weight: bolder;
     }
-
-    .mncs-logo .aptara {
-        display: none;
+    .hero .col-md-7 h2 {
+        font-size: 30px;
     }
 }
 
 @media screen and (max-width:767px) {
     .hero .col-md-7 h1 {
-        font-size: 35px;
-        color: #fff;
-        font-weight: bold;
+        font-size: 30px;
     }
-
-    .mncs h2 {
-        margin: 0px 100px;
-    }
-
-    .mncs h2 span {
-        font-size: 35px;
-    }
-
-    .mncs h2 span+span+span {
-        font-size: 35px;
-    }
-
-    .mncs .mncs-logo img:hover {
-        transform: scale(1.2);
-        border-radius: 0px 10px;
-        box-shadow: 0 2px 18px 0px #ee522f;
+    .hero .col-md-7 h2 {
+        font-size: 25px;
     }
 }
 
@@ -274,34 +263,9 @@ header .text-blue span+span {
 
     .hero .col-md-7 h1 {
         font-size: 25px;
-        color: #fff;
-        font-weight: bold;
     }
-
-    .mncs h2 {
-        margin: 0px 15px;
-    }
-
-    .mncs h2 span {
-        font-size: 25px;
-    }
-
-    .mncs h2 span+span+span {
-        font-size: 25px;
-    }
-
-    .mncs .mncs-logo img:hover {
-        transform: scale(1.1);
-        border-radius: 20px 5px;
-        box-shadow: 0 2px 18px 0px #39ff07;
-    }
-
-    .mncs-logo .aptara {
-        display: block;
-    }
-
-    .mncs-logo .spero {
-        display: block;
+    .hero .col-md-7 h2 {
+        font-size: 20px;
     }
 
     footer h3 {
